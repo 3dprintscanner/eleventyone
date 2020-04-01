@@ -12,3 +12,14 @@
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
+
+
+[[redirects]]
+  from = "https://dir-a.flamboyant-varahamihira-ce515b.netlify.com/*"
+  to = "/dir-a/:splat"
+  status = 200
+
+[[redirects]]
+  from = "https://dir-b.flamboyant-varahamihira-ce515b.netlify.com/*"
+  to = "/dir-b/:splat"
+  status = 200
